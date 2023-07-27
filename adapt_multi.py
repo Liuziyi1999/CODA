@@ -1,5 +1,5 @@
 import argparse
-import os, sys
+import os
 import os.path as osp
 import numpy as np
 import torch
@@ -7,19 +7,14 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import transforms
-import torchvision
 import network
 import loss
 from torch.utils.data import DataLoader
 from data_list import ImageList, ImageList_idx
-import random, pdb, math, copy
-import my_transforms as my_transforms
-import PIL
-import matplotlib.pyplot as plt
+import random
 from randaugment import RandAugmentMC
 from torch.nn import DataParallel
 from collections import OrderedDict
-from tensorboardX import SummaryWriter
 
 def op_copy(optimizer):
     for param_group in optimizer.param_groups:
