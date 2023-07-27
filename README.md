@@ -21,7 +21,7 @@ This repository is a PyTorch implementation of the paper.
 ### Training
 - Train source models (shown here for Office with source A)
 
-  ``` python train_source.py --dset office --s 0 --max_epoch 100 --trte val --gpu_id 0 --output ckps/source/``` 
+  ``` python train_source.py --dset office --s 0 --max_epoch 100 --trte val --gpu_id 0 --output ckps/source/ ```
 - Adapt to target (shown here for Office with target D)
 
-  ``` python adapt_multi.py --dset office --t 1 --max_epoch 15 --gpu_id 0 --output_src ckps/source/ --output ckps/adapt``` 
+  ``` python adapt_multi.py --dset office --t 1 --max_epoch 15 --gpu_id 0 --output_src ckps/source/ --output ckps/adapt ``` 
