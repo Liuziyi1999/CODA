@@ -5,7 +5,7 @@ Consistency-Guided Multi-Source-Free Domain Adaptation
 This repository is a PyTorch implementation of the paper.  
 
 ### Framework
-![Framework](https://github.com/Liuziyi1999/CODA/blob/main/img/Framework.pdf)
+![Framework](https://github.com/Liuziyi1999/CODA/blob/main/img/Framework.SVG)
 
 ### Prerequisites:
 - python == 3.8
